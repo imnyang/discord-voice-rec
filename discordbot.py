@@ -5,7 +5,6 @@ from datetime import datetime, timezone, timedelta
 from typing import List
 from dotenv import load_dotenv
 from discord.ext import tasks
-import PingPongWr
 load_dotenv() # load all the variables from the env file
 
 bot = discord.Bot()
